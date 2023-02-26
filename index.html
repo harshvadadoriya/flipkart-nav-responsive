@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Flipkart</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+			integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<header>
+			<div class="header-content">
+				<div class="navbar">
+					<!-- Flipkart and Flipkart plus logo -->
+					<div class="flipkart_logo">
+						<img src="/Asset/flipkart_nav_logo1.png" alt="Flipkart" />
+					</div>
+					<p class="flipkart_logo2">
+						<a href="/#"
+							>Explore
+							<span>Plus</span>
+							<span style="display: inline-block; margin-top: 2px"
+								><img
+									src="/Asset/flipkart_nav_logo2.png"
+									alt="flipkart_plus"
+									width="10"
+							/></span>
+						</a>
+					</p>
+				</div>
+				<div class="search">
+					<input
+						type="text"
+						placeholder="Search for products, brands and more"
+						name=""
+						id=""
+					/>
+					<i class="fa-solid fa-magnifying-glass"></i>
+				</div>
+				<input type="checkbox" id="hamburger" aria-label="menu button" />
+				<label for="hamburger"><span></span></label>
+
+				<nav
+					aria-label="main navigation"
+					style="display: flex; margin-left: 100px"
+				>
+					<div class="login_btn" style="margin-top: 6px; width: 150px">
+						<button type="submit">Login</button>
+					</div>
+					<ul class="menus">
+						<!-- <li>
+							<a href="#" style="color: white; background-color: #2874f0"
+								>Become a Seller</a
+							>
+						</li> -->
+						<li>
+							<button
+								type="button"
+								class="btn_more"
+								aria-haspopup="true"
+								aria-expanded="true"
+								aria-controls="dropdown1"
+							>
+								More<span class="arrow"></span>
+							</button>
+
+							<ul class="dropdown" id="dropdown1">
+								<li>
+									<a
+										href="#"
+										style="border-bottom: 1px solid #f5f5f0; color: black"
+										><span style="color: #2874f0; margin-right: 4px"
+											><i class="fa-sharp fa-solid fa-bell"></i
+										></span>
+										Notification
+									</a>
+								</li>
+								<li>
+									<a
+										href="#"
+										style="border-bottom: 1px solid #f5f5f0; color: black"
+										><span style="color: #2874f0; margin-right: 4px"
+											><i class="fas fa-comments"></i
+										></span>
+										24x7 Care</a
+									>
+								</li>
+								<li>
+									<a
+										href="#"
+										style="border-bottom: 1px solid #f5f5f0; color: black"
+										><span style="color: #2874f0; margin-right: 4px"
+											><i class="fas fa-poll"></i
+										></span>
+										Advertise</a
+									>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#" style="color: white; background-color: #2874f0"
+								><i class="fa-solid fa-cart-shopping"></i> Cart</a
+							>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<!-- Products Section -->
+		<div class="main_container">
+			<div class="flex_box">
+				<div class="imgs">
+					<img
+						src="/Asset_complete/Products_imgs/Top_Offers.png"
+						alt=""
+						srcset=""
+					/>
+					<a><p>Top Offers</p></a>
+				</div>
+				<div class="imgs">
+					<img
+						src="/Asset_complete/Products_imgs/Grocery.png"
+						alt=""
+						srcset=""
+					/>
+					<a><p>Grocery</p></a>
+				</div>
+				<div class="imgs">
+					<img
+						src="/Asset_complete/Products_imgs/Mobiles.png"
+						alt=""
+						srcset=""
+					/>
+					<a><p>Mobiles</p></a>
+				</div>
+				<div class="imgs">
+					<img
+						src="/Asset_complete/Products_imgs/Fashion.png"
+						alt=""
+						style="height: 55px"
+						srcset=""
+					/>
+					<a
+						><p class="fashion">
+							Fashion <span><i class="fa-solid fa-angle-down"></i></span></p
+					></a>
+					<!-- <a
+						><p style="margin-top: 5px">
+							Fashion <span><i class="fa-solid fa-angle-down"></i></span></p
+					></a> -->
+				</div>
+				<div class="imgs">
+					<img
+						src="/Asset_complete/Products_imgs/Electronics.png"
+						alt=""
+						srcset=""
+					/>
+					<a
+						><p>
+							Electronics <span><i class="fa-solid fa-angle-down"></i></span></p
+					></a>
+				</div>
+				<div class="imgs">
+					<img src="/Asset_complete/Products_imgs/Home.png" alt="" srcset="" />
+					<a
+						><p>
+							Home <span><i class="fa-solid fa-angle-down"></i></span></p
+					></a>
+				</div>
+				<div class="imgs">
+					<img
+						src="/Asset_complete/Products_imgs/Appliances.png"
+						alt=""
+						srcset=""
+					/>
+					<a
+						><p>
+							Appliances <span><i class="fa-solid fa-angle-down"></i></span></p
+					></a>
+				</div>
+				<div class="imgs">
+					<img
+						src="/Asset_complete/Products_imgs/Travel.png"
+						alt=""
+						srcset=""
+					/>
+					<a><p>Travel</p></a>
+				</div>
+				<div class="imgs">
+					<img
+						src="/Asset_complete/Products_imgs/Beauty_Toys_More.png"
+						alt=""
+						srcset=""
+					/>
+					<a
+						><p>
+							Beauty, Toys & More
+							<span><i class="fa-solid fa-angle-down"></i></span></p
+					></a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
